@@ -1,0 +1,30 @@
+GPIOs 1000-1031, platform/pinctrl, gpio0:
+ gpio-1004 (                    |bt_default_wake_host) in  lo    
+ gpio-1005 (                    |power               ) in  hi    
+ gpio-1009 (                    |bt_default_reset    ) out lo    
+ gpio-1010 (                    |reset               ) out hi    
+
+GPIOs 1032-1063, platform/pinctrl, gpio1:
+ gpio-1033 (                    |camera gpio         ) in  hi    
+ gpio-1034 (                    |camsys_gpio         ) out lo    
+ gpio-1040 (                    |volume down gpio    ) in  hi    
+ gpio-1042 (                    |volume up gpio      ) in  hi    
+ gpio-1045 (                    |enable              ) out hi    
+ gpio-1046 (                    |vsel                ) out lo    
+ gpio-1049 (                    |vsel                ) out lo    
+ gpio-1050 (                    |transb gpio         ) in  hi    
+ gpio-1055 (                    |transa gpio         ) in  hi    
+
+GPIOs 1064-1095, platform/pinctrl, gpio2:
+ gpio-1083 (                    |bt_default_rts      ) out hi    
+ gpio-1090 (                    |bt_default_wake     ) in  hi    
+ gpio-1091 (                    |camsys_gpio         ) out lo    
+ gpio-1092 (                    |camsys_gpio         ) out lo    
+
+GPIOs 1096-1127, platform/pinctrl, gpio3:
+ gpio-1100 (                    |reset               ) out hi    
+
+GPIOs 1128-1159, platform/pinctrl, gpio4:
+ gpio-1153 (                    |vcc5v0_host         ) out hi    
+ gpio-1156 (                    |?                   ) out lo    
+ gpio-1158 (                    |vibrator            ) in  lo    
