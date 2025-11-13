@@ -1,4 +1,5 @@
 # 一、获取android的root权限
+该方法描述了如何从adb普通的shell权限提升到adb root权限
 ## 1.1想办法进入loader模式或者Maskrom模式
 ### 方案一：
 - 1、开机键 + 音量-  【*】
